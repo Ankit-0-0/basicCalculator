@@ -11,17 +11,21 @@
     display:flex;
     justify-content: center;
     align-items: center;
+    background-color: rgb(30, 182, 13);
     
 }
 .dis{
-    height:60px;
-    width:380px;
+    height:70px;
+    width:360px;
      border: 2px solid red;
      display:flex;
      justify-content: flex-end;
+     background-color: cadetblue;
 }
 span{
     font-size: xxx-large;
+    overflow-x: auto;
+    white-space: nowrap;
 }
 .keypad{
      border: 2px solid red;
@@ -30,6 +34,7 @@ span{
       display:flex;
       flex-wrap:wrap;
       justify-content: space-around;
+      background-color: rgb(30, 182, 13);
 }
 
 .column{
@@ -39,14 +44,30 @@ gap:8px;
 margin: 4px;
 }
 button{
-  height:70px;
-  width: 70px;
+  height:65px;
+  width: 65px;
 }
 button{
     border-radius: 30%;
     box-shadow:1px 6px 3px black;
+    transition:
+    transform 0.1s,
+    box-shadow 0.1s;
+    background-color: rgb(234, 221, 39);
+}
+button:hover{
+    transform:translate(-1px,-2px);
+    opacity:80%;
 }
 button:active{
-   transform: translateY(3px);
-   
-}
+  
+   box-shadow: 0 2px 1px black;
+   transform:translate(1px,3px);
+}   
+   .clear{
+    background-color: crimson;
+   }
+   .oper{
+    background-color: bisque;
+   }
+
