@@ -11,7 +11,7 @@ function operate(num1,oper,num2){
         "*":(num1,num2)=>(+num1) * (+num2),
         "/":(num1,num2)=>(+num1)/(+num2),
     }
-    return `${cal[oper](num1,num2)}`;
+    return  (+cal[oper](num1, num2).toFixed(10)).toString();
 }
 function deletekey(){
     justcalculated=false;

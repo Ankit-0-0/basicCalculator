@@ -1,26 +1,26 @@
 .container{
     height:500px;
-    width:380px;
-    border: 2px solid red;
+    width:370px;
+   
     display:flex;
     flex-direction: column;
-}
-.display{
-    border: 2px solid red;
-    height:100px;
-    display:flex;
-    justify-content: center;
     align-items: center;
-    background-color: rgb(30, 182, 13);
+    justify-content: space-around;
+    background-color:#3FAF32;
+    border-radius: 30px;
     
 }
+
 .dis{
     height:70px;
-    width:360px;
-     border: 2px solid red;
+    width:340px;
+    
      display:flex;
      justify-content: flex-end;
-     background-color: cadetblue;
+     align-items: flex-end;
+     background-color: #E6B98D;
+      margin-top: 20px;
+     border-radius: 24px;
 }
 span{
     font-size: xxx-large;
@@ -28,13 +28,13 @@ span{
     white-space: nowrap;
 }
 .keypad{
-     border: 2px solid red;
-      flex-grow: 1;
+    
+      width: 350px;
       
       display:flex;
       flex-wrap:wrap;
       justify-content: space-around;
-      background-color: rgb(30, 182, 13);
+      
 }
 
 .column{
@@ -49,11 +49,12 @@ button{
 }
 button{
     border-radius: 30%;
-    box-shadow:1px 6px 3px black;
+   box-shadow: 4px 6px 6px rgba(0, 0, 0, 0.65);
     transition:
     transform 0.1s,
     box-shadow 0.1s;
     background-color: rgb(234, 221, 39);
+    font-weight: bolder;
 }
 button:hover{
     transform:translate(-1px,-2px);
@@ -70,4 +71,11 @@ button:active{
    .oper{
     background-color: bisque;
    }
-
+   body{
+    background-color:#E8F1F1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh
+   }
+   
