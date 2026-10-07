@@ -1,6 +1,6 @@
 .container{
     height:500px;
-    width:400px;
+    width:380px;
     border: 2px solid red;
     display:flex;
     flex-direction: column;
@@ -41,4 +41,12 @@ margin: 4px;
 button{
   height:70px;
   width: 70px;
+}
+button{
+    border-radius: 30%;
+    box-shadow:1px 6px 3px black;
+}
+button:active{
+   transform: translateY(3px);
+   
 }
