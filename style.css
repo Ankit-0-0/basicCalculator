@@ -46,6 +46,7 @@ margin: 4px;
 button{
   height:65px;
   width: 65px;
+  border:2px solid red;
 }
 button{
     border-radius: 30%;
